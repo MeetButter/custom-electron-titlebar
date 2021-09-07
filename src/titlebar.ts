@@ -202,9 +202,9 @@ export class Titlebar extends Themebar {
         }
 
         if (IS_MAC_BIGSUR_OR_LATER) {
-			this.title.style.fontWeight = "600";
-			this.title.style.fontSize = "13px";
-		}
+            this.title.style.fontWeight = "600";
+            this.title.style.fontSize = "13px";
+        }
 
         this.updateTitle();
         this.setHorizontalAlignment(this._options.titleHorizontalAlignment);
