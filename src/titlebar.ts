@@ -38,7 +38,6 @@ const ACTIVE_FOREGROUND = Color.fromHex('#FFFFFF');
 const IS_MAC_BIGSUR_OR_LATER = isMacintosh && parseInt(process.getSystemVersion().split(".")[0]) >= 11;
 const BOTTOM_TITLEBAR_HEIGHT = '60px';
 const TOP_TITLEBAR_HEIGHT_MAC = IS_MAC_BIGSUR_OR_LATER ? '28px': '22px';
-const TOP_TITLEBAR_HEIGHT_MAC = '22px';
 const TOP_TITLEBAR_HEIGHT_WIN = '30px';
 
 const TitlebarEventType = {
