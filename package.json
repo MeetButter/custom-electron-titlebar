@@ -1,6 +1,6 @@
 {
   "name": "@meetbutter/custom-electron-title-bar",
-  "version": "4.1.8",
+  "version": "4.1.9",
   "description": "Custom Electron Titlebar is a library for electron 10+ that allows you to configure a fully customizable title bar.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

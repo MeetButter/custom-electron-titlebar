@@ -20,7 +20,7 @@ import {
     EventHelper,
     EventLike
 } from "vs/base/browser/dom";
-import {BrowserWindow, remote, Accelerator, NativeImage, MenuItem} from "electron";
+import {BrowserWindow, Accelerator, NativeImage, MenuItem} from "electron";
 import {MENU_MNEMONIC_REGEX, cleanMnemonic, MENU_ESCAPED_MNEMONIC_REGEX} from "./mnemonic";
 import {KeyCode, KeyCodeUtils} from "vs/base/common/keyCodes";
 import {Disposable} from "vs/base/common/lifecycle";
@@ -28,6 +28,7 @@ import {isMacintosh} from "vs/base/common/platform";
 import {IMenuItem, IMenuStyle, IMenuOptions} from './api'
 import * as strings from 'vs/base/common/strings';
 import {EventType as TouchEventType} from 'vs/base/browser/touch';
+const remote = require("@electron/remote");
 
 let menuItemId = 0;
 
